@@ -1,8 +1,10 @@
 module github.com/saedarm/supernova-engine
 
-go 1.26.2
+go 1.22
 
-require github.com/hajimehoshi/ebiten/v2 v2.7.8
+require (
+	github.com/hajimehoshi/ebiten/v2 v2.7.8
+)
 
 require (
 	github.com/ebitengine/gomobile v0.0.0-20240518074828-e86332849895 // indirect
